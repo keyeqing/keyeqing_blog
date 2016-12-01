@@ -1,0 +1,10 @@
+1.采用tensorboard观察loss等变量，在loss没有下降时，停止训练
+2.checkpoint可以把训练模型的变量持久化到本地
+3.SparseTensor包含了indices、values、shape三个属性
+SparseTensor(indices=[[0,0],[1,2]],values=[1,2],shape=[3,4])
+
+[[1,0,0,0]
+ [0,0,2,0]
+ [0,0,0,0]]
+ 
+ 
